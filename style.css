@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -24,6 +26,7 @@
     border-radius: 10px;
     text-align: end;
     margin-top: 20px;
+    font-family: 'Orbitron', sans-serif;
 }
 
 #buttonContainer {
@@ -40,6 +43,15 @@
 }
 
 .btn {
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: orange;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+.numBtn {
     font-size: 30px;
     border-radius: 10px;
     background-color: orange;
